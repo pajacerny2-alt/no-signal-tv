@@ -1,7 +1,42 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0b0b16"><title>NO SIGNAL ENGINE</title>
-<style>*{box-sizing:border-box}body{margin:0;background:#0b0b16;color:#f4f2ff;font:15px -apple-system,BlinkMacSystemFont,Arial,sans-serif}header{padding:24px 18px 16px;background:linear-gradient(140deg,#25204d,#0b0b16)}h1{margin:0;font-size:26px;letter-spacing:2px}small,.muted{color:#aaa6c1}.tag{font-size:11px;letter-spacing:2px;color:#a6f4e0}main{max-width:720px;margin:auto;padding:18px 16px 95px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}.stat,.card{background:#19192c;border:1px solid #34334e;border-radius:16px;padding:15px}.stat strong{display:block;font-size:23px;margin-top:7px}.card{margin-bottom:12px}.row{display:flex;justify-content:space-between;gap:12px;align-items:center}.pill{font-size:11px;border-radius:30px;background:#383154;padding:6px 9px;color:#d9cbff}button,select,input,textarea{font:inherit}button{background:#8d6bff;color:white;border:0;border-radius:12px;padding:11px 14px;font-weight:700;cursor:pointer}button.secondary{background:#33334e}button.danger{background:#68384d}button:disabled{opacity:.45}textarea,input,select{width:100%;background:#101020;color:white;border:1px solid #494565;border-radius:10px;padding:12px;margin:7px 0}textarea{min-height:110px}nav{position:fixed;bottom:0;left:0;right:0;background:#171728;border-top:1px solid #38334d;display:flex;justify-content:space-around;padding:10px 3px max(14px,env(safe-area-inset-bottom))}nav button{background:transparent;font-size:12px;padding:9px 5px;color:#aaa6c1}nav button.active{color:white;background:#44366e}h2{font-size:20px}p{line-height:1.5}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#11101d;padding:12px;border-radius:10px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.hidden{display:none}.notice{background:#30253e;border-radius:12px;padding:12px;color:#e8d9ff;margin:12px 0}</style></head>
-<body><header><div class="tag">◉ INTERDIMENSIONAL BROADCAST</div><h1>NO SIGNAL ENGINE</h1><small>Control Center · Local MVP v0.1</small></header><main id="app"></main><nav id="nav"></nav>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#08090e"><title>NO SIGNAL ENGINE</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#0b0b16;color:#f4f2ff;font:15px -apple-system,BlinkMacSystemFont,Arial,sans-serif}header{padding:24px 18px 16px;background:linear-gradient(140deg,#25204d,#0b0b16)}h1{margin:0;font-size:26px;letter-spacing:2px}small,.muted{color:#aaa6c1}.tag{font-size:11px;letter-spacing:2px;color:#a6f4e0}main{max-width:720px;margin:auto;padding:18px 16px 95px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}.stat,.card{background:#19192c;border:1px solid #34334e;border-radius:16px;padding:15px}.stat strong{display:block;font-size:23px;margin-top:7px}.card{margin-bottom:12px}.row{display:flex;justify-content:space-between;gap:12px;align-items:center}.pill{font-size:11px;border-radius:30px;background:#383154;padding:6px 9px;color:#d9cbff}button,select,input,textarea{font:inherit}button{background:#8d6bff;color:white;border:0;border-radius:12px;padding:11px 14px;font-weight:700;cursor:pointer}button.secondary{background:#33334e}button.danger{background:#68384d}button:disabled{opacity:.45}textarea,input,select{width:100%;background:#101020;color:white;border:1px solid #494565;border-radius:10px;padding:12px;margin:7px 0}textarea{min-height:110px}nav{position:fixed;bottom:0;left:0;right:0;background:#171728;border-top:1px solid #38334d;display:flex;justify-content:space-around;padding:10px 3px max(14px,env(safe-area-inset-bottom))}nav button{background:transparent;font-size:12px;padding:9px 5px;color:#aaa6c1}nav button.active{color:white;background:#44366e}h2{font-size:20px}p{line-height:1.5}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#11101d;padding:12px;border-radius:10px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.hidden{display:none}.notice{background:#30253e;border-radius:12px;padding:12px;color:#e8d9ff;margin:12px 0}
+:root{color-scheme:dark;--void:#08090e;--panel:#11121b;--stroke:#272936;--signal:#b6a0ff;--ink:#f1f0f7;--quiet:#898b9f}
+body{background:radial-gradient(ellipse 100% 25% at 50% -5%,#211b3b 0%,transparent 100%),var(--void);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;letter-spacing:.005em}
+header{position:relative;overflow:hidden;padding:calc(30px + env(safe-area-inset-top)) 22px 25px;background:transparent;border-bottom:1px solid #242433}
+header:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background:repeating-linear-gradient(0deg,transparent 0px,transparent 4px,#9b8bb7 5px,transparent 6px)}
+header:after{content:"● LIVE SIGNAL";position:absolute;right:20px;top:calc(19px + env(safe-area-inset-top));color:#a9e6ce;font-size:9px;font-weight:700;letter-spacing:1.5px}
+.tag{font-size:10px;color:#a8a1c8;letter-spacing:3px;font-weight:650}
+h1{font-size:clamp(27px,8vw,38px);letter-spacing:-1.4px;font-weight:850;margin:13px 0 4px;line-height:1.08}
+header small{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#85849e}
+main{padding:22px 16px 110px}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:2.2px;font-weight:750;margin:12px 0 17px;color:#c5bedc}
+h3{font-size:19px;letter-spacing:-.4px;line-height:1.25;margin:14px 0}
+p{color:#b5b3c7}
+.stats{gap:9px;margin-bottom:25px}
+.stat,.card{background:linear-gradient(145deg,#171722,#101119);border:1px solid var(--stroke);border-radius:16px;box-shadow:0 10px 28px #00000018}
+.stat{padding:16px 12px;min-width:0}
+.stat strong{font-size:28px;font-weight:750;letter-spacing:-1px}
+.stat small{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--quiet)}
+.card{padding:18px;margin-bottom:13px}
+.card .row>small{font-size:10px;text-transform:uppercase;letter-spacing:1.3px;color:#b9a8f9}
+.pill{background:#252039;border:1px solid #43365d;color:#cdbdff;font-size:9px;letter-spacing:.8px;text-transform:uppercase;white-space:nowrap}
+button{background:#d0c2ff;color:#171020;border:1px solid #e1d8ff;border-radius:11px;padding:13px 15px;min-height:43px;box-shadow:none;font-size:13px;letter-spacing:.1px}
+button.secondary{background:#252431;border-color:#383645;color:#dcd9eb}
+button.danger{background:#39242f;border-color:#5c3544;color:#ffd6e3}
+button:active{transform:scale(.985)}
+textarea,input,select{background:#0c0d14;border:1px solid #363445;border-radius:10px;color:#f5f1ff;font-size:14px}
+textarea:focus,input:focus{outline:1px solid #aa92ff}
+details{margin:10px 0}summary{color:#bcb2dc;padding:9px 0;cursor:pointer;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+.notice{background:#171422;border:1px solid #302a45;color:#bdb4d6;font-size:12px;line-height:1.65}
+nav{background:#101017f5;backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-top:1px solid #292737;padding:11px 5px max(16px,env(safe-area-inset-bottom));gap:3px}
+nav button{min-height:48px;border:0;border-radius:10px;font-size:10px;letter-spacing:.15px;padding:10px 4px;background:transparent;color:#87869b;box-shadow:none}
+nav button.active{color:#eee8ff;background:#272238;border:1px solid #453b5d}
+.muted,small{color:var(--quiet)}
+::selection{background:#7158a9;color:white}
+@media(min-width:680px){header{padding-left:max(24px,calc((100vw - 700px)/2))}header:after{right:max(24px,calc((100vw - 700px)/2))}nav{max-width:720px;left:50%;transform:translateX(-50%);border:1px solid #292737;border-radius:18px 18px 0 0}}
+</style></head>
+<body><header><div class="tag">◈ NO SIGNAL / NETWORK</div><h1>NO SIGNAL ENGINE</h1><small>INTERDIMENSIONAL CONTROL / v0.2</small></header><main id="app"></main><nav id="nav"></nav>
 <script>
 const KEY='no-signal-v01';const CHANNELS=['Breaking News','Galactic Shopping','Forbidden Channels'];const IDEAS=[
 ['Breaking News','Tuesday Has Been Cancelled','Breaking news: Tuesday has been declared illegal. Citizens caught experiencing Tuesday face six Wednesdays in prison. Tomorrow is also Tuesday.','Photorealistic serious pigeon news anchor in a modern TV studio, cinematic broadcast lighting, surreal deadpan comedy, vertical 9:16, no text.'],
